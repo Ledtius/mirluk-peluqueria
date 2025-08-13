@@ -7,3 +7,15 @@
 .th {
   @apply p-2 max-w-20;
 }
+
+.appointment-title-value {
+  @apply flex justify-between gap-4;
+}
+
+.appointment-title {
+  @apply text-lg;
+}
+
+.appointment-value {
+  @apply text-2xl font-bold max-w-[123.45px] overflow-auto;
+}
