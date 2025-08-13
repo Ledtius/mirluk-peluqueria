@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.td {
+  @apply p-4 max-w-40;
+}
+
+.th {
+  @apply p-2 max-w-20;
+}
